@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+        integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="zoom.css">
+    <style>
+        .bor34:hover {
+            border: 1.5px solid blue;
+            border-radius: 7px;
+        }
+
+        .row22 {
+            background-color: rgba(212, 212, 212, 0.295);
+        }
+
+        .row22:hover {
+            transition: all 1s ease 0s;
+            background-color: red;
+            color: white;
+        }
+
+        .row23 {
+            display: none;
+        }
+
+        .row22:hover .row23 {
+            display: inline-block;
+        }
+
+        .footer p {
+            font-weight: bold;
+        }
+
+        .footer button {
+            background-color: #39394D;
+            color: white;
+            width: 8pc;
+        }
+
+        .last a {
+            color: white;
+            font-size: 10px;
+            text-decoration: none;
+            border-right: 1px white solid;
+            padding-right: 5px;
+            padding-left: 5px;
+        }
+
+        .last a:hover {
+            text-decoration: underline;
+        }
+
+        .boxsh:hover {
+            color: blue;
+            border: 1px solid;
+            box-shadow: 1px 1px 1px 1px blue;
+        }
+
+        @media screen and (max-width :768px) {
+            .itisit {
+                height: auto !important;
+
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="d1">
+        <div class="d2">
+            <a href="#" class="dd1"><i class="fa-solid fa-magnifying-glass"></i> &nbsp;Search</a>
+            <a href="#" class="dd1">Support</a>
+            <a href="#" class="dd1">1.888.799.9666</a>
+            <a href="#" class="dd1">Request A Demo</a>
+            <a href="#" class="dd1" id="xx">Join</a>
+            <a href="#" class="dd1">Host <i class="fa-solid fa-angle-down"></i></a>
+            <a href="#" class="dd1">Sign In</a>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-lg bg-white px-3 py-2 sticky-top top-0">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><img src="pics/zoom.png" alt="" width="40%"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active fw-semibold" aria-current="page" href="#">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fw-semibold" aria-current="page" href="#">Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fw-semibold" aria-current="page" href="#">Resources</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active fw-semibold" aria-current="page" href="#">Plans and pricing</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Other Projects
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="fb.html">Facebook</a></li>
+                            <li><a class="dropdown-item" href="salesforce.html">Salesforce</a></li>
+                            <li><a class="dropdown-item" href="netflix.html">Netflix</a></li>
+                            <li><a class="dropdown-item" href="oyo.html">Oyo state</a></li>
+                            <li><a class="dropdown-item" href="index.html">Asana</a></li>
+                            <li><a class="dropdown-item" href="meso.html">Mongodb</a></li>
+                            <li><a class="dropdown-item" href="uber.html">Uber</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <div>
+                        <button type="button" class="btn btn-outline-primary">Contact Sales</button>&nbsp;&nbsp;&nbsp;
+                        <button type="button" class="btn btn-primary">Sign up Free</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="p-4">
+                    <h1 style="font-size: 60px;">One Platform To <span style="color: blue;"> Connect</span></h1>
+                    <div class="pb-5" style="font-size: 22px;">More Connected,more collaborative,more intelligent.
+                        Zoom's AI platform
+                        helps you do more</div>
+                    <button type="button" class="btn btn-primary btn-lg rounded-5">Plans & Pricing</button>
+                    <button type="button" class="btn btn-outline-light btn-lg rounded-5" style="color: blue;">Sign Up
+                        Free ></button>
+                </div>
+            </div>
+
+            <div class="col-lg-6">
+                <img src="pics/zoom15.png" width="100%" alt="">
+            </div>
+
+        </div>
+    </div>
+
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4" style="background-color: black; color: white;">
+                <div class="p-4" style="background-color: #0B5CFF; margin-inline: -12px; ">
+                    <img src="pics/zoom10.png" alt="" width="60%">
+                </div>
+                <div class="p-4">
+                    <h4>Flexible solutions for modern team collaboration</h4>
+                    <button type="button" class="btn btn-outline-light rounded-5">Zoom one</button>
+                    <br> <br>
+                    <button type="button" class="btn btn-outline-light rounded-5">Spaces</button>
+                    <br> <br><button type="button" class="btn btn-outline-light rounded-5">Event</button>
+                    <br> <br><button type="button" class="btn btn-outline-light rounded-5">Contact center</button>
+                    <br> <br><button type="button" class="btn btn-outline-light rounded-5">Developers</button>
+                    <br> <br>
+                </div>
+            </div>
+            <div class="col-lg-8" style="background-color: #F5F8FE">
+                <div class="row">
+                    <div class="col-lg-6 pt-5">
+                        <img src="pics/zoom11.png" width="100%" alt="">
+                    </div>
+                    <div class="col-lg-6 py-5">
+                        <h2 class="pb-3"> Unified communication and collaboration platform</h3>
+                            <div style="font-size: 23px; line-height: 25px;" class="pb-4"> Make meaningful connections
+                                with meetings,
+                                team
+                                chat, whiteboard,
+                                phone, and more in one
+                                offering.</div>
+                            <div class="row">
+                                <div class="col-lg-6 kk"
+                                    style="font-size: 20px; line-height: 40px; list-style-type: none;">
+                                    <li>Virtual Meetings</li>
+                                    <li>Phone</li>
+                                    <li>Virtual Meetings</li>
+                                    <li>Virtual Meetings</li>
+                                </div>
+                                <div class="col-lg-6 kk"
+                                    style="font-size: 20px; line-height: 40px; list-style-type: none;">
+                                    <li>Team chat</li>
+                                    <li>Online white board</li>
+                                    <li>Virtual Meetings</li>
+                                    <li>Virtual Meetings</li>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </div>
+
+    <div class="container-fluid" style="background-color: #F7F7F8;">
+        <div class="row">
+            <div class="col-lg-6 p-5">
+                <div style="font-size: 28px; font-weight: 380;">
+                    Businesses around the globe choose Zoom
+                </div><br><br>
+                <div style="color: blue;">
+                    Read the stories
+                </div>
+
+            </div>
+            <div class="col-lg-6">
+                <img src="pics/zoom4.png" width="100%" alt="">
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid itisit" style="background-color: #00053D; height: 360px;">
+        <div class="row">
+            <div class="col-lg-5">
+                <img src="pics/zoom5.png" width="450px" alt="" style="margin-top: -8%;">
+            </div>
+            <div class="col" style="color: white; margin-top: 10%;">
+                <div style="font-size: 40px;">Make work less work</div>
+                <div>Securely connect and collaborate so you can work better together. Simple to manage and delightful
+                    to use, Zoom powers the modern workforce.</div>
+                <div style="font-weight: 500;">Discover the Possibilities
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-6 p-5 lh-sm">
+                <div style="font-size: 40px; font-weight: 500;" class="pb-3">Powering organizations across industries
+                    and geographies
+                </div>
+                <div class="pb-4" style="font-size: 20px;">Zoom helps consolidate communications, connect people, and
+                    collaborate
+                    better together in the
+                    boardroom, classroom, operating room, and everywhere in between.</div>
+                <button type="button" class="btn btn-info rounded-5" style="color: white;">Explore Industry
+                    Solutions</button>
+            </div>
+            <div class="col-lg-6">
+                <div class="row d-flex justify-content-center py-5">
+                    <div class="col-6 mx-3 my-2 py-4 rounded-2  boxsh "
+                        style="border: 1px solid lightblue; width: 30%; font-size: 25px; font-weight: 400;"
+                        align="center">
+                        <span>
+                            Education</span>
+                    </div>
+                    <div class="col-6 mx-3 my-2 py-4 rounded-2  boxsh"
+                        style="border: 1px solid  lightblue; width: 30%; font-size: 25px; font-weight: 400;"
+                        align="center">
+                        <span>
+                            Education</span>
+                    </div>
+                    <div class="col-6 mx-3 my-2 py-4 rounded-2  boxsh "
+                        style="border: 1px solid lightblue; width: 30%; font-size: 25px; font-weight: 400;"
+                        align="center">
+                        <span>
+                            Education</span>
+                    </div>
+                    <div class="col-6 mx-3 my-2 py-4 rounded-2  boxsh"
+                        style="border: 1px solid  lightblue; width: 30%; font-size: 25px; font-weight: 400;"
+                        align="center">
+                        <span>
+                            Education</span>
+                    </div>
+                    <div class="col-6 mx-3 my-2 py-4 rounded-2  boxsh "
+                        style="border: 1px solid lightblue; width: 30%; font-size: 25px; font-weight: 400;"
+                        align="center">
+                        <span>
+                            Education</span>
+                    </div>
+                    <div class="col-6 mx-3 my-2 py-4 rounded-2  boxsh"
+                        style="border: 1px solid  lightblue; width: 30%; font-size: 25px; font-weight: 400;"
+                        align="center">
+                        <span>
+                            Education</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-4 p-5" style="background-color: black; color: white; display: block;">
+                <div class="lh-sm" style="font-size: 45px; font-weight: 700; "> What's New at Zoom</div>
+                <div style="font-size: 27px;"> Stay up to date on news, learn best practices, and more.</div>
+                <br>
+                <button type="button" class="btn btn-outline-light btn-lg rounded-5">Read our blog</button>
+            </div>
+            <div class="col-lg-8 p-4" style="background-color: #0B5CFF;">
+                <div class="row row-cols-1 row-cols-md-2 g-4">
+                    <div class="col">
+                        <div class="card">
+                            <img src="pics/zoom8.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">Boost how you collaborate, connect, and create</h5>
+                                <p class="card-text">Zoom's AI assistant helps you draft emails and chat messages, and
+                                    summarize meetings and chat threads - so you can focus on what matters</p>
+                                <button type="button" class="btn btn-primary rounded-5">Learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card">
+                            <img src="pics/zoom9.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 class="card-title">
+                                    Boost how you collaborate, connect, and create
+                                </h5>
+                                <p class="card-text">Zoom's AI assistant helps you draft emails and chat messages, and
+                                    summarize meetings and chat threads - so you can focus on what matters</p>
+                                <button type="button" class="btn btn-primary rounded-5">Learn more</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <div>
+
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="d-flex justify-content-center py-5" style="font-size: 40px; font-weight: bold;">
+            Real-world stories of people working better together
+        </div>
+        <div class="row">
+            <div class="col-lg row22 m-2" style="width: 90%; position: relative; border-radius: 20px;">
+                <div style="padding: 20px;">
+                    <img src="pics/zoom3.png" width="30%" alt="">
+                    <div class="lh-sm" style="font-size: 30px; font-weight: bold;">Oracle Red Bull Racing sets the pace
+                        with
+                        Zoom</div>
+                </div>
+
+                <br><br><br><br>
+                <div
+                    style="position: absolute; right: 0; bottom: 0; background-color: red; color: white; border-radius: 20px 0px; padding: 15px;">
+                    <div class="row23" style=" color: white;">read more</div>&gt;
+                </div>
+            </div>
+            <div class="col-lg row22 m-2" style="width: 90%; position: relative; border-radius: 20px;">
+                <div style="padding: 20px;">
+                    <img src="pics/zoom3.png" width="30%" alt="">
+                    <div class="lh-sm" style="font-size: 30px; font-weight: bold;">Oracle Red Bull Racing sets the pace
+                        with
+                        Zoom</div>
+                </div>
+                <br><br><br><br>
+                <div
+                    style="position: absolute; right: 0; bottom: 0; background-color: red; color: white; border-radius: 20px 0px; padding: 15px;">
+                    <div class="row23" style=" color: white;">read more</div>&gt;
+                </div>
+            </div>
+            <div class="col-lg row22 m-2" style="width: 90%; position: relative; border-radius: 20px;">
+                <div style="padding: 20px;">
+                    <img src="pics/zoom3.png" width="30%" alt="">
+                    <div class="lh-sm" style="font-size: 30px; font-weight: bold;">Oracle Red Bull Racing sets the pace
+                        with
+                        Zoom</div>
+                </div>
+                <br><br><br><br>
+                <div
+                    style="position: absolute; right: 0; bottom: 0; background-color: red; color: white; border-radius: 20px 0px; padding: 15px;">
+                    <div class="row23" style=" color: white;">read more</div>&gt;
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="d-flex justify-content-center">
+            <button type="button" class="btn btn-outline-primary rounded-5">GET INSPIRED</button>
+        </div>
+    </div>
+    <br>
+
+    <div class="container-fluid p-5" style="background-color: #F7F7F8; " align="center">
+        <div class="pt-5" style="font-weight: bold; font-size: 40px; padding-bottom: 20px;">Trusted by businesses, loved
+            by people
+        </div>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="pb-4" style="font-weight: bold;">
+                    Top-rated on review sites</div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-4" style="margin-inline: -1.2pc;">
+                        <img src="pics/zoom2.png" alt="" class="bor34" width="80%">
+                    </div>
+                    <div class="col-lg-4" style="margin-inline: -1.2pc;">
+                        <img src="pics/zoom2.png" alt="" class="bor34" width="80%">
+                    </div>
+                    <div class="col-lg-4" style="margin-inline: -1.2pc;">
+                        <img src="pics/zoom2.png" alt="" class="bor34" width="80%">
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 pb-5">
+                <div class="pb-4" style="font-weight: bold;">
+                    A recognized leader in unified communications</div>
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-4" style="margin-inline: -1.2pc;">
+                        <img src="pics/zoom2.png" alt="" class="bor34" width="80%">
+                    </div>
+                    <div class="col-lg-4" style="margin-inline: -1.2pc;">
+                        <img src="pics/zoom2.png" alt="" class="bor34" width="80%">
+                    </div>
+                    <div class="col-lg-4" style="margin-inline: -1.2pc;">
+                        <img src="pics/zoom2.png" alt="" class="bor34" width="80%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="container-fluid" style="background-color: #0B5CFF; color: white; padding: 60px 0px;" align="center">
+        <div style="font-weight: bold; font-size: 40px; padding-bottom: 20px;">Ready to get started?</div>
+        <button type="button" class="btn btn-info btn-lg rounded-5">Sign up , it's free</button>&nbsp;&nbsp;&nbsp;&nbsp;
+        <button type="button" class="btn btn-outline-light btn-lg rounded-5">Plans & Pricing</button>
+    </div>
+
+    <div class="footer p-5" style="list-style-type: none;
+    background-color: #39394D;
+    color: white;
+    font-size: 13px;">
+        <div class="container fluid pb-3">
+            <div class="row">
+                <div class="col-lg-2">
+                    <p>About</p>
+                    <li>Zoom Blog</li>
+                    <li>Customers</li>
+                    <li>Our Team</li>
+                    <li>Careers</li>
+                    <li>Integrations</li>
+                    <li>Partners</li>
+                    <li>Investors</li>
+                    <li>Press</li>
+                    <li>Sustainability & ESG</li>
+                    <li>Media Kit</li>
+                    <li>How to Videos</li>
+                    <li>Developer Platform</li>
+                    <li>Zoom Ventures</li>
+                </div>
+                <div class="col-lg-2">
+                    <p>Download</p>
+                    <li>Meetings Client</li>
+                    <li>Zoom Rooms Client</li>
+                    <li>Browser Extension</li>
+                    <li>Outlook Plug-in</li>
+                    <li>Lync Plug-in</li>
+                    <li>Android App</li>
+                    <li>Zoom Virtual Backgrounds</li>
+                </div>
+                <div class="col-lg-2">
+                    <p>Sales</p>
+                    <li>1.888.799.9666</li>
+                    <li>Contact Sales</li>
+                    <li>Plans & Pricing</li>
+                    <li>Request a Demo</li>
+                    <li>Webinars and Events</li>
+                </div>
+                <div class="col-lg-2">
+                    <p>Support</p>
+                    <li>Test Zoom</li>
+                    <li>Account</li>
+                    <li>Support Center</li>
+                    <li>Learning Center</li>
+                    <li>Feedback</li>
+                    <li>Contact Us</li>
+                    <li>Accessibility</li>
+                    <li>Developer Support</li>
+                </div>
+                <div class="col-lg-4">
+                    <p>Language</p>
+                    <button>English</button>
+                    <br>
+                    <p>Currency</p>
+                    <button>US Dollars $</button>
+                    <br><br>
+                    <img src="pics/zoom7.png" alt="" width="70%">
+                </div>
+            </div>
+        </div>
+        <div class="last" style="text-align: center;">
+            Copyright ©2023 Zoom Video Communications, Inc. All rights reserved. <a href="#">Terms</a> <a
+                href="#">Privacy</a> <a href="#">Trust Center</a> <a href="#">Acceptable Use Guidelines</a> <a
+                href="#">Legal
+                & Compliance</a> <a href="#">Do Not Sell/Share My Personal Information</a> <a href="#"
+                style="border: none;">Cookie
+                Preferences</a>
+        </div>
+    </div>
+    <div class="bg-primary" style="text-align: center;  padding: 30px 80px 30px 80px; color: white;">
+        <span style="font-size:30px ;">THIS IS A STUDENT PROJECT AND NOT ATTEMPTING TO CLONE THE SITE</span>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

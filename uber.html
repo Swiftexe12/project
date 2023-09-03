@@ -1,0 +1,314 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+    <style>
+        #div {
+            background-color: white;
+            width: 40%;
+            margin: 5pc;
+            position: absolute;
+            top: 50px;
+        }
+
+        @media screen and (max-width: 768px) {
+            #div {
+                background-color: white;
+                width: 40%;
+                margin: 5pc;
+                position: static;
+                /* top: 100px; */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary px-5" data-bs-theme="dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">Uber</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Company
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">About us</a></li>
+                            <li><a class="dropdown-item" href="#">our offering</a></li>
+                            <li><a class="dropdown-item" href="#">how uber works</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Safety</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Help</a>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            Other Projects
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="fb.html">Facebook</a></li>
+                            <li><a class="dropdown-item" href="salesforce.html">Salesforce</a></li>
+                            <li><a class="dropdown-item" href="netflix.html">Netflix</a></li>
+                            <li><a class="dropdown-item" href="oyo.html">Oyo state</a></li>
+                            <li><a class="dropdown-item" href="zoom.html">zoom</a></li>
+                            <li><a class="dropdown-item" href="meso.html">Mongodb</a></li>
+                            <li><a class="dropdown-item" href="index.html">Asana</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <button type="button" class="btn btn-outline-dark" style="color: white;"><i
+                            class="bi bi-globe"></i>EN</button>&nbsp;&nbsp;&nbsp;
+                    <button type="button" class="btn btn-outline-dark" style="color: white;"><i
+                            class="bi bi-list"></i>Products</button>&nbsp;&nbsp;&nbsp;
+                    <button type="button" class="btn btn-outline-dark" style="color: white;"><i
+                            class="bi bi-person"></i>Login</button>&nbsp;&nbsp;&nbsp;
+                    <button type="button" class="btn btn-light">Sign up</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div id="div" class="container p-5">
+        <div class="row p-3">
+            <div class="col" align="center">
+                <iconify-icon icon="material-symbols:network-cell" width="30" height="30"></iconify-icon>
+                <h6>drive or driver</h6>
+            </div>
+            <div class="col" align="center">
+                <iconify-icon
+                    icon="streamline:food-kitchenware-fork-spoon-fork-spoon-food-dine-cook-utensils-eat-restaurant-dining"
+                    width="30" height="30"></iconify-icon>
+                <h6>Eat</h6>
+            </div>
+            <div class="col" align="center">
+                <iconify-icon icon="ion:car-sharp" width="30" height="30"></iconify-icon>
+                <h6>Ride</h6>
+            </div>
+            <hr />
+        </div>
+        <h1 style="font-weight: bold;">Get in the driver’s seat and get paid</h1><br>
+        <span>Drive on the platform with the largest network of active riders.</span><br><br>
+        <button type="button" class="btn btn-dark btn-lg">Sign up to drive</button> <br><Br>
+        <span style="text-decoration: underline;">Learn more about driving and delivering</span>
+
+    </div>
+    <img src="pics/uber1.webp" width="100%" height="100%" alt="">
+    <div style="background-image: url('pics/uber2.jpeg')">
+        <div class="p-5">
+            <span style="font-weight: bold; font-size: 30px ;">The Uber you know, reimagined for business</span><br><br>
+            <span>A platform for managing global rides and meals, and local deliveries, for companies of any
+                size.</span><br><br>
+            <button type="button" class="btn btn-dark">Get Started</button>
+        </div>
+    </div>
+
+    <div class="container py-5">
+        <h1 style="font-weight: bold;">Focused on safety, wherever you go</h1>
+        <div class="row">
+            <div class="col-sm-12 col-md-6">
+                <img src="pics/uber3.png" style="width: 100%; margin: 1rem 0;" alt="">
+                <h6><b>Our commitment to your safety</b></h6>
+                <p>
+                    With every safety feature and every standard in our Community Guidelines,<br />
+                    we're committed to helping to create a safe environment for our users.
+                </p>
+                <span style="text-decoration: underline;">Read about our Community Guidelines</span>&nbsp; &nbsp;
+                <span style="text-decoration: underline;">See all safety features</span>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <img src="pics/uber4.png" style="width: 100%; margin: 1rem 0;" alt="">
+                <h6><b>Setting 10,000+ cities in motion</b></h6>
+                <p>
+                    The app is available in thousands of cities worldwide, so you can request a<br />
+                    ride even when you’re far from home.
+                </p>
+                <span style="text-decoration: underline;">View all cities</span>
+            </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="row">
+            <div class="col-sm-12 col-md-4">
+                <img src="pics/uber5.svg" alt="">
+                <h6 class="pt-3"><b>About us</b></h6>
+                <p>
+                    Find out how we started, what drives us, and how <br />
+                    we’re reimagining how the world moves.
+                </p>
+                <span>Learn more about Uber</span>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <img src="pics/uber6.svg" alt="">
+                <h6 class="pt-3"><b>Newsroom</b></h6>
+                <p>
+                    See announcements about our latest releases,
+                    initiatives, and partnerships.
+                </p>
+                <span>Go to Newsroom</span>
+            </div>
+            <div class="col-sm-12 col-md-4">
+                <img src="pics/uber7.svg" alt="">
+                <h6 class="pt-3"><b>Global citizenship</b></h6>
+                <p>
+                    Read about our commitment to making a <br />
+                    positive impact in the cities we serve.
+                </p>
+                <span>See our partnerships</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid" style="background: #F6F6F6;">
+        <div class="container" style="padding: 4rem 0;">
+            <div class="pb-4">
+                <h1>It’s easier in the apps</h1>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-5 p-2" style="background-color: white;   border: 1px solid white;">
+                    <img src="pics/uber8.png" class="image-fluid" style="width: 24%;" alt="">
+                    <span> <span style="font-weight: bold; font-size: 17px;">Download the Driver app</span> &nbsp; Scan
+                        to download</span>
+
+                </div>
+                <div class=" col-sm-12 col-md-5 p-2" style="background-color: white;   border: 1px solid white;">
+                    <img src="pics/uber8.png" class="image-fluid" style="width: 24%;" alt="">
+                    <span> <span style="font-weight: bold; font-size: 17px;">Download the Driver app</span> &nbsp; Scan
+                        to download</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container px-lg-4">
+        <div class="row px-5">
+            <div class="col-sm-12 col-md-6">
+                <h4 style="border-bottom: 1px solid black;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 600;">Sign up to drive &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                    <span class="iconify" data-icon="bi:arrow-right-short" data-width="60" data-height="60"></span>
+                </h4>
+            </div>
+            <div class="col-sm-12 col-md-6">
+                <h4 style="border-bottom: 1px solid black;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 600;">Sign up to ride &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;
+                    <span class="iconify" data-icon="bi:arrow-right-short" data-width="60" data-height="60"></span>
+                </h4>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid py-5" style="background: #000000; color: white;">
+        <footer class="container">
+            <div class="row">
+                <div class="col-md-3 col-sm-12">
+                    <h4>Uber</h4>
+                    <br />
+                    <p>Visit Help Center</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-12 col-md-3">
+                    <h4>Company</h4>
+                    <br />
+                    <p>About Us</p>
+                    <p>Our offerings</p>
+                    <p>Newsroom</p>
+                    <p>Investors</p>
+                    <p>Blog</p>
+                    <p>Careers</p>
+                    <p>AI</p>
+                    <p>Gift cards</p>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <h4>Products</h4>
+                    <br />
+                    <p>Ride</p>
+                    <p>Drive</p>
+                    <p>Eat</p>
+                    <p>Uber for Business</p>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <h4>Global citizenship</h4>
+                    <br />
+                    <p>Safety</p>
+                    <p>Diversify and Inclusion</p>
+                </div>
+                <div class="col-sm-12 col-md-3">
+                    <h4>Travel</h4>
+                    <br />
+                    <p>Airports</p>
+                    <p>Cities</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-9">
+                    <i class="bi bi-facebook"></i> &nbsp; &nbsp;<i class="bi bi-twitter"></i> &nbsp; &nbsp;<i
+                        class="bi bi-youtube"></i> &nbsp; &nbsp;<i class="bi bi-linkedin"></i> &nbsp; &nbsp;<i
+                        class="bi bi-instagram"></i>
+                </div>
+                <div class="col-lg-3">
+                    <i class="bi bi-globe"></i> &nbsp; English &nbsp; <i class="bi bi-geo-alt"></i> Lagos
+                </div>
+                <div class="col">
+                </div>
+            </div>
+
+            <div class="py-3">
+                <img src="pics/storegoogle.svg" style="width: 10%;" alt=""> &nbsp; <img src="pics/appstore.svg"
+                    style="width: 10%;" alt="">
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p style="color: grey;">&copy; 2023 Uber Technology Inc</p>
+                </div>
+                <div class="col">
+                </div>
+                <div class="col">
+                </div>
+                <div class="col">
+                    <a href="#" style="text-decoration: none; color: grey;">Privacy</a> &nbsp; &nbsp; <a href="#"
+                        style="text-decoration: none; color: grey;">Accessibility</a>&nbsp; &nbsp; <a href="#"
+                        style="text-decoration: none; color: grey;">Terms</a>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <div class="bg-primary" style="text-align: center;  padding: 30px 80px 30px 80px; color: white;">
+        <span style="font-size:30px ;">THIS IS A STUDENT PROJECT AND NOT ATTEMPTING TO CLONE THE SITE</span>
+    </div>
+
+    <script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
+    <script src="https://code.iconify.design/2/2.2.1/iconify.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

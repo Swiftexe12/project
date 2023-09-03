@@ -1,0 +1,140 @@
+body{
+  overflow-x: hidden;
+}
+.nav-item {
+  line-height: 35px;
+}
+
+.dropdown-toggle::after {
+  display: block;
+  margin-right: 0.255em;
+  content: "";
+  margin: 0px auto;
+  width: fit-content;
+  border-top: 0.3em solid;
+  border-left: 0.3em solid transparent;
+  border-right: 0.3em solid transparent;
+}
+
+.dropdown-toggle:empty::after {
+  margin-right: 0;
+}
+
+.nav-underline {
+  --bs-nav-underline-gap: 1rem;
+  --bs-nav-underline-border-width: 0.125rem;
+  --bs-nav-underline-link-active-color: var(--bs-emphasis-color);
+  gap: var(--bs-nav-underline-gap);
+}
+
+.nav-underline .nav-link {
+  padding-left: 0;
+  padding-right: 0;
+  border-bottom: var(--bs-nav-underline-border-width) solid transparent;
+}
+
+.nav-underline .nav-link:hover,
+.nav-underline .nav-link:focus {
+  padding-block: 1.5pc;
+  border-bottom-color: currentcolor;
+}
+
+.nav-underline .nav-link.active,
+.nav-underline .show > .nav-link {
+  font-weight: 700;
+  color: var(--bs-nav-underline-link-active-color);
+  border-bottom-color: currentcolor;
+}
+
+.navbar-toggler {
+  padding: 15px;
+}
+
+.navbar-brand {
+  transform: rotate(20deg);
+  padding-inline: 90px;
+  padding-block: 100px;
+  margin-block: -100px;
+  margin-left: -1rem;
+}
+
+.navbar-brand img {
+  transform: rotate(-20deg);
+  padding-left: 7rem;
+}
+
+.navbar {
+  background: #006633;
+}
+
+
+.dropdown-item {
+  font-weight: 600;
+}
+
+.dropdown-item:hover {
+  background: inherit;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .dropdown-toggle::after {
+    display: inline;
+    margin: 0px;
+    position: absolute;
+    right: 0;
+    bottom: 10px;
+  }
+
+  .nav-underline {
+    /* width: ; */
+    padding: 0;
+  }
+
+  .nav-underline .nav-link:hover,
+  .nav-underline:hover {
+    padding-block: 0;
+    margin: 0;
+    border-bottom-color: transparent;
+  }
+
+  .navbar-toggler:hover,
+  .navbar-toggler:focus {
+    border: none;
+    outline: 0;
+    box-shadow: 0;
+  }
+
+  .navbar-brand {
+    transform: rotate(0);
+    padding-inline: 0;
+    padding-block: 0;
+    margin-block: 0;
+    margin-left: 0;
+  }
+
+  .navbar-brand img {
+    transform: rotate(0deg);
+    padding-left: 1rem;
+  }
+
+  .collapse {
+    margin: 1pc;
+  }
+
+  .navbar {
+    background: inherit;
+  }
+
+  .collapse {
+    margin: 5px;
+    background: #006633;
+    padding: 1pc;
+  }
+}
+
+/* li:hover {
+            border-bottom: 2px solid tomato;
+            margin-bottom: 1pc;
+            position: relative;
+        } */
